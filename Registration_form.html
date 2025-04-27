@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <form>
+        <h3>Personal Details</h3>
+        <label for="fname">First Name: </label>
+        <input type="text" required id="fname" pattern="a-zA-Z"><br><br>
+        <label for="lname">Last Name: </label>
+        <input type="text" required id="lname" pattern="a-zA-Z"><br><br>
+
+        <label>Gender: </label>
+        <input type="radio" required id="Male" name="gender">
+        <label for="Male">Male</label>
+        <input type="radio" required id="Female" name="gender">
+        <label for="Female">Female</label><br><br>
+
+        <label>DOB: </label>
+        <input type="text" pattern="0-9"><br><br>
+
+        <label for="Phone">Phone No.: </label>
+        <input type="text" requird id="Phone" pattern="0-9"><br><br>
+
+        <label>Email Id: </label>
+        <input type="text"><br><br>
+
+        <label>Country: </label>
+        <input type="text"><br><br>
+
+        <label>State: </label>
+        <input list="state">
+        <datalist id="state">
+            <option>Andhra Pradesh</option>
+            <option>Arunachal Pradesh</option>    
+            <option>Assam</option>   
+            <option>Bihar</option>
+            <option>Chhattisgarh</option>
+            <option>Goa</option>
+            <option>Gujarat</option>
+            <option>Haryana</option>
+            <option>Himachal Pradesh</option>
+            <option>Jharkhand</option>
+            <option>Karnataka</option>
+            <option>Kerala</option>
+            <option>Madhya Pradesh</option>
+            <option>Maharashtra</option>
+            <option>Manipur</option>
+            <option>Meghalaya</option>
+            <option>Mizoram</option>
+            <option>Nagaland</option>
+            <option>Odisha</option>
+            <option>Punjab</option>
+            <option>Rajasthan</option>
+            <option>Sikkim</option>
+            <option>Tamil Nadu</option>
+            <option>Telangana</option>
+            <option>Tripura</option>
+            <option>Uttar Pradesh</option>
+            <option>Uttarakhand</option>
+            <option>West Bengal</option>
+        </datalist><br><br>
+
+        <label>City: </label>
+        <input type="text"><br><br>
+
+        <label for="pcode">Postal code: </label>
+        <input type="text" required id="pcode" pattern="0-9"><br><br><br>
+
+        <h3>Education Details</h3><br>
+        <label>Degree: </label>
+        <input list="degree">
+        <datalist id="degree">
+            <option>Bachelors</option>
+            <option>Masters</option>
+            <option>Diploma</option>
+        </datalist><br><br>
+
+        <label>College: </label>
+        <input type="text"><br><br>
+
+        <label for="cgpa">CGPA: </label>
+        <input type="text" required id="cgpa"><br><br>
+
+        <label><b>Skills: </b></label><br>
+        <input type="checkbox" required id="Java">
+        <label for="Java">Java</label>
+        <input type="checkbox" required id="SQL">
+        <label for="SQL">SQL</label>
+        <input type="checkbox" required id="HTML">
+        <label for="HTML">HTML</label>
+        <input type="checkbox" required id="CSS">
+        <label for="CSS">CSS</label><br><br><br>
+
+        <label for="uname">Username:</label>
+        <input type="text" required id="uname" pattern="[a-zA-Z1-9]">
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="text" required id="password" pattern="[a-zA-Z1-9]">
+        <br><br>
+        <a href="Login_form.html" target="_blank">
+        <button type="button">Submit</button></a>
+    
+    </form>
+</body>
+</html>
